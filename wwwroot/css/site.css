@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+}
+
+form{
+    width: 100%;
+    max-width: 500px;
+}
+
+form div {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+form div *:last-child{
+    flex: 1;
+    margin-left: 10px;
+    resize: none;
+}
+
+input, textarea {
+    width: 300px;
+}

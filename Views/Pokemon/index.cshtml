@@ -1,0 +1,53 @@
+
+
+<body>
+    <h1>Pokemons</h1>
+    <p>Total de Pokemon: @ViewBag.TotalPokemons</p>
+
+    <a asp-controller="Pokemon" asp-action="Cadastro" >Novo Pokemon</a>
+
+    <table>
+        <thead>
+            <tr>
+                <th>NumeroPokedex</th>
+                <th>Nome</th>
+                <th>Descricao</th>
+                <th>Geracao</th>
+                <th>Ataque</th>
+                <th>Defesa</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @* <tr>
+                <td>A Origem</td>
+                <td>Em um mundo onde é possível entrar nos sonhos, um ladrão busca plantar uma ideia na mente de um herdeiro para recuperar sua vida.</td>
+                <td>2010</td>
+                <td>9.2</td>
+                <td>Um quebra-cabeça narrativo impecável que desafia a percepção de realidade. Nolan em seu auge</td>
+                <td>
+                    <button>Excluir</button>
+                </td>
+            </tr> *@
+            @foreach (Pokemon p in Model){
+            <tr>
+                <td>@p.NumeroPokedex</td>
+                <td>@p.Nome</td>
+                <td>@p.Descricao</td>
+                <td>@p.Geracao</td>
+                <td>@p.Ataque</td>
+                <td>@p.Defesa</td>
+                <td>
+                    <form asp-controller="Pokemon" asp-action="Deletar" method="post"
+                    onsubmit= "return confirm('Deseja realmente liberar este pokemon? (OBS: ele vai sofrer)');">
+                        <input type="hidden" value="@p.Id" name="id">
+                    <button>Esquecer/Liberar</button>
+                    </form>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+
+</body>

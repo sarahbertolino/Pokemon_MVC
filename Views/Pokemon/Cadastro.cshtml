@@ -1,0 +1,33 @@
+<body>
+    <h1>Cadastrar Pokemon</h1>
+
+    <form action="" method="post">
+        <div>
+            <label for="">NumeroPokedex</label>
+            <input type="number" name="numeropokedex" required>
+        </div>
+        <div>
+            <label for="">Nome</label>
+            <input type="text" name="nome" required>
+        </div>
+        <div>
+            <label for="">Descricao</label>
+            <input type="text" name="descricao" required>
+        </div>
+        <div>
+            <label for="">Geracao</label>
+            <input type="number" name="geracao" required>
+        </div>
+        <div>
+            <label for="">Ataque</label>
+            <input type="number" name="ataque">
+        </div>
+        <div>
+            <label for="">Defesa</label>
+            <input type="number" name="defesa">
+        </div>
+        <button type="submit">Salvar</button>
+    </form>
+    
+    <a asp-controller="Pokemon" asp-action="Index">Voltar</a>
+</body>

@@ -18,6 +18,24 @@ namespace POKEMONS.Repositories
         {
             return _context.Pokemon.ToList();
         }
-        
+
+        public void Adicionar(Pokemon p)
+        {
+            _context.Pokemon.Add(p);
+            _context.SaveChanges();
+        }
+        public void Remover(int id)
+        {
+            var pokemon = _context.Pokemon.FirstOrDefault(p => p.Id == id);
+
+            if (pokemon == null)
+            {
+                return;
+            }
+                           
+                _context.Pokemon.Remove(pokemon);
+                _context.SaveChanges();
+        }
     }
 }
+    

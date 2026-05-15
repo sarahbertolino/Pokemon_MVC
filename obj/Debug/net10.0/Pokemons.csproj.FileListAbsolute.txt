@@ -129,7 +129,6 @@ C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\rjsmc
 C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\scopedcss\bundle\Pokemons.styles.css
 C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\scopedcss\projectbundle\Pokemons.bundle.scp.css
-C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\compressed\9vfrmt280o-{0}-5ipweew5fc-5ipweew5fc.gz
 C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\compressed\96lka6d0kr-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\compressed\tn46od1sz1-{0}-fr7q2aak1r-fr7q2aak1r.gz
 C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\compressed\bbwfzgtq7y-{0}-lp7fkgllij-lp7fkgllij.gz
@@ -145,3 +144,5 @@ C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\refin
 C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\Pokemons.pdb
 C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\Pokemons.genruntimeconfig.cache
 C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\ref\Pokemons.dll
+C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\Pokemons.sourcelink.json
+C:\Users\50718299833\Downloads\FilmesDbMVC-main\Pokemons\obj\Debug\net10.0\compressed\9vfrmt280o-{0}-ej3l7vwcm1-ej3l7vwcm1.gz

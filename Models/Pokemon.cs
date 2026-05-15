@@ -22,3 +22,7 @@ namespace POKEMONS.Models
 
     }
 }
+
+// git add .
+// git commit
+// git push
